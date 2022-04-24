@@ -9,6 +9,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Client", "Boo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Shared", "BookingSystem\Shared\BookingSystem.Shared.csproj", "{EC327B3F-FCDE-4816-B957-07E37BFEFF68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystemApplication", "BookingSystemApplication\BookingSystemApplication.csproj", "{0E5FC8D3-9A45-416D-8101-0D081A2CB7B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Domain", "BookingSystem.Domain\BookingSystem.Domain.csproj", "{3426A936-1736-48D9-BCC1-9C644550E78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Infrastucture", "BookingSystem.Infrastucture\BookingSystem.Infrastucture.csproj", "{41F8BA10-CD9A-49E8-A193-A736925CBE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Persistance", "BookingSystem.Persistance\BookingSystem.Persistance.csproj", "{CA39D0FF-4687-499B-8380-29057F0EC56F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BC17117A-46FB-4731-B588-A17F0B8452D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B323064D-A5C3-4D0F-8BC0-EFD0B6CE90B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastucture", "{BA65DA79-4B2D-4BA1-86F8-25BC77AE8047}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{912B8382-D55E-48B4-86C9-873E93797EA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +43,34 @@ Global
 		{EC327B3F-FCDE-4816-B957-07E37BFEFF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC327B3F-FCDE-4816-B957-07E37BFEFF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC327B3F-FCDE-4816-B957-07E37BFEFF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5FC8D3-9A45-416D-8101-0D081A2CB7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5FC8D3-9A45-416D-8101-0D081A2CB7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5FC8D3-9A45-416D-8101-0D081A2CB7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5FC8D3-9A45-416D-8101-0D081A2CB7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3426A936-1736-48D9-BCC1-9C644550E78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3426A936-1736-48D9-BCC1-9C644550E78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3426A936-1736-48D9-BCC1-9C644550E78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3426A936-1736-48D9-BCC1-9C644550E78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F8BA10-CD9A-49E8-A193-A736925CBE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F8BA10-CD9A-49E8-A193-A736925CBE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F8BA10-CD9A-49E8-A193-A736925CBE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F8BA10-CD9A-49E8-A193-A736925CBE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA39D0FF-4687-499B-8380-29057F0EC56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA39D0FF-4687-499B-8380-29057F0EC56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA39D0FF-4687-499B-8380-29057F0EC56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA39D0FF-4687-499B-8380-29057F0EC56F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B9A4F6B-C904-4E78-A153-48F33D8E59F9} = {BC17117A-46FB-4731-B588-A17F0B8452D4}
+		{B563D914-3954-40A7-AD1E-D965E6C173DA} = {BC17117A-46FB-4731-B588-A17F0B8452D4}
+		{EC327B3F-FCDE-4816-B957-07E37BFEFF68} = {912B8382-D55E-48B4-86C9-873E93797EA4}
+		{0E5FC8D3-9A45-416D-8101-0D081A2CB7B7} = {B323064D-A5C3-4D0F-8BC0-EFD0B6CE90B7}
+		{3426A936-1736-48D9-BCC1-9C644550E78F} = {B323064D-A5C3-4D0F-8BC0-EFD0B6CE90B7}
+		{41F8BA10-CD9A-49E8-A193-A736925CBE72} = {BA65DA79-4B2D-4BA1-86F8-25BC77AE8047}
+		{CA39D0FF-4687-499B-8380-29057F0EC56F} = {BA65DA79-4B2D-4BA1-86F8-25BC77AE8047}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6ACEBDD-7750-4281-89D2-F6164017421E}
